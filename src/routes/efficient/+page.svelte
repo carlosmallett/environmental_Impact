@@ -2,4 +2,4 @@
 	import TeamFinanceSimulator from '$lib/TeamFinanceSimulator.svelte';
 </script>
 
-<TeamFinanceSimulator mode="inefficient" />
+<TeamFinanceSimulator mode="efficient" />

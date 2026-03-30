@@ -10,8 +10,9 @@
 </svelte:head>
 
 <nav>
-    <a href="/">Inefficient</a>
-    <a href="/inefficient">Efficent</a>
+    <a href="/">Home</a>
+    <a href="/efficient">Efficient Site</a>
+    <a href="/inefficient">Inefficient Site</a>
 </nav>
 
 {@render children()}
@@ -20,12 +21,12 @@
     nav {
         display: flex;
         justify-content: flex-start;
-        gap: 40px;
+        gap: 24px;
         align-items: center;
         width: 100%;
         box-sizing: border-box;
         padding: 0 40px;
-        background-color: #71717a;
+        background-color: #111827;
         height: 60px;
         /* Ensure the nav stays on top of any floating words */
         position: relative;
@@ -33,8 +34,12 @@
     }
 
     nav a {
-        color: white;
+        color: #e5e7eb;
         text-decoration: none;
         font-weight: bold;
+    }
+
+    nav a:hover {
+        color: white;
     }
 </style>
